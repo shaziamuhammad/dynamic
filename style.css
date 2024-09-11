@@ -1,0 +1,133 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body{
+    font-family: "Open Sans", sans-serif;
+
+margin: 20px;
+padding: 0px;
+background-color: aliceblue;
+
+
+}
+h1{
+    text-align: center;
+    color: rgb(83, 154, 137);
+    /* background-color: rgb(184, 108, 120); */
+}
+.main{
+    display: flex;
+justify-content:center ;
+flex-direction: row;
+gap: 30px;
+}
+button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color:blue ;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(46 ,217 ,239);
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+button:hover{
+    background-color: #66b1e6;
+}
+form{
+    width: 600px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px ;
+    padding: 60px;
+    text-decoration: underline ;
+    color: black;
+    
+}
+  i {
+
+font-size: 20px;
+line-height: 2;
+color:rgb(222, 71, 96);
+transition: all 0.3s ease-in-out;
+}
+
+fieldset{
+    border: 3px solid rgb(215, 19, 84);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+}
+legend {
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(173, 110, 110);
+
+}
+label{
+    display: block;
+    margin-top: 10px;
+    color: blue;
+    font-size: bold;
+}
+input ,textarea{
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-top: 8px;
+    margin-right: 5px;
+    border: 2px solid rgb(143, 143, 197);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px ; 
+}
+.left {
+    height: 655px;
+    width: 600px;
+    background-color: rgb(67, 245, 245);
+    border: 3px solid rgb(215, 19, 84);
+    align-items: center;
+    padding-top:  40px; ;
+    border-radius: 20px;
+}
+
+  
+.right{
+height: 650px;
+width: 600px;
+background-color: rgb(67, 245, 245);
+
+border: 3px solid rgb(215, 19, 84);
+align-items: center;
+padding-top:  40px; ;
+border-radius: 20px;
+padding-bottom: 10px;
+}
+#resumeOutput{
+max-width:  600px;
+margin: auto;
+border-radius: 8px;
+box-shadow: 0 4px 8px ;
+padding: 60px;
+text-decoration: underline ;
+color: black
+
+}
+resumeOutput h2 {
+color: #2c3e50;
+}
+.proflePicture{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #3498bd;
+    border-radius: 500%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgb(11, 7, 211 ,0.5);
+
+}
